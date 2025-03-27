@@ -36,7 +36,7 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/SiqiWu21/koach-books-app.git
+   git clone https://github.com/Brandone123/Book_Boss.git
    cd koach-books-app
    ```
 
