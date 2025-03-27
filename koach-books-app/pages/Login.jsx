@@ -8,7 +8,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { Text, Button, TextInput } from "react-native-paper";
 import { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
-import request from "../utils/request";
+import request, { baseURL } from "../utils/request";
 import Toast from "react-native-toast-message";
 
 export default function Login() {
@@ -143,7 +143,7 @@ export default function Login() {
               } 
             }}
           >
-            {islogin ? "Log in now" : "Register Now"}
+            {islogin ? "Log in" : "Register"}
           </Button>
           <TouchableOpacity
             onPress={() => {

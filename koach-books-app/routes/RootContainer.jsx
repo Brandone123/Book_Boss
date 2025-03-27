@@ -12,7 +12,7 @@ import AddReview from "../pages/AddReview";
 import EditBook from "../pages/EditBook";
 import About from "../pages/About";
 
-export default function RootCotainer() {
+export default function RootContainer() {
   const Stack = createNativeStackNavigator();
 
   return (

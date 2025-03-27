@@ -16,13 +16,14 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "This application will access your photos and allow you to share them with friends."
+          "photosPermission": "This application will access your photos..."
         }
       ]
     ],
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "extra": {
+      "API_BASE_URL": "http://localhost:8081"
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
